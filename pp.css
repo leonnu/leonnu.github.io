@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #8b0000; /* vermelho escuro */
+    padding: 20px 0;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.8em;
+    color: #8b0000; /* vermelho escuro */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #333; /* azul escuro */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    text-align: left;
+}
+
+button {
+    background-color: #8b0000; /* vermelho escuro */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #800000; /* vermelho mais escuro */
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #000;
+    color
+/* CSS atualizado para os botões da seção de loja */
+section#loja {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section#loja p {
+    margin-bottom: 20px;
+}
+
+section#loja .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+section#loja a.button {
+    display: inline-block;
+    background-color: #8b0000; /* vermelho escuro */
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px; /* Aumenta o padding para dar destaque */
+    border-radius: 50px; /* Deixa os botões completamente redondos */
+    border: 2px solid #8b0000; /* borda vermelha */
+    margin: 0 10px; /* espaço entre os botões */
+    transition: all 0.3s ease;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+section#loja a.button:hover {
+    background-color: #800000; /* vermelho mais escuro */
+    border-color: #800000; /* borda vermelha mais escura */
+    transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao botão */
+}
+
+section#loja .emoji {
+    margin-right: 5px;
+}
